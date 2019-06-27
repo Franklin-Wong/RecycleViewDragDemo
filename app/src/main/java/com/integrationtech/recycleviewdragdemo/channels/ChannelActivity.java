@@ -47,7 +47,7 @@ public class ChannelActivity extends AppCompatActivity {
             otherItems.add(entity);
         }
 
-        mAdapter = new ChannelAdapter(this, items, otherItems);
+        mAdapter = new ChannelAdapter(ChannelActivity.this, items, otherItems);
         mRecyclerView.setAdapter(mAdapter);
 
     }
